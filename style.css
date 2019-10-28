@@ -1,0 +1,82 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.white{
+    color: white;
+}
+
+.blue{
+    color: #2C3E50;
+}
+header {
+    background-color: #2C3E50;
+
+    padding: 20px 0;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+h1,h2,h3{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header a.btn-lg{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+header a.btn-lg:hover{
+
+    color: white;
+    text-decoration: none;
+}
+
+header ul li a.btn{
+    padding-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+header ul li a.btn:hover{
+    text-decoration: none;
+    color: #19BC9B;
+    font-weight: bold;
+}
+
+.jumbo{
+
+    background-color: #19BC9B;
+}
+
+.jumbo .container{
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.jumbo h1{
+    font-size: 64px;
+}
+
+img#avatar {
+    width: 250px;
+}
+
+.whiteBG{
+    background-color: white;
+}
+.rowDecoration{
+    height: 4px;
+    width: 120px;
+    margin: 1px solid;
+    display: inline-block;
+    vertical-align: text-top;
+    margin: 0 10px;
+}
+
+.jumbo p{
+    padding-top: 80px;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+}
